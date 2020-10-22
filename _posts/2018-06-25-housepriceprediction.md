@@ -1,7 +1,7 @@
 ---
 title:  "House Price Prediction"
 subtitle: "Kaggle : Advanced Regression"
-author: "VB"
+author: "Varun Behera"
 avatar: "img/authors/logo.png"
 image: "img/Class.png"
 date:   2018-06-25 8:15:00

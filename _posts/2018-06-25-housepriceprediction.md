@@ -3,7 +3,7 @@ title:  "House Price Prediction"
 subtitle: "Kaggle : Advanced Regression"
 author: "VB"
 avatar: "img/authors/logo.png"
-image: "img/class.png"
+image: "img/Class.png"
 date:   2015-04-20 12:12:12
 ---
 

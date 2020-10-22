@@ -1,9 +1,9 @@
 ---
-title:  "Planes are cool!"
-subtitle: "The Fly!"
-author: "Wferr"
-avatar: "img/authors/wferr.png"
-image: "img/a.jpg"
+title:  "House Price Prediction"
+subtitle: "Kaggle : Advanced Regression"
+author: "VB"
+avatar: "img/authors/logo.png"
+image: "img/class.png"
 date:   2015-04-20 12:12:12
 ---
 

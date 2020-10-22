@@ -4,7 +4,7 @@ subtitle: "Kaggle : Advanced Regression"
 author: "VB"
 avatar: "img/authors/logo.png"
 image: "img/Class.png"
-date:   2015-04-20 12:12:12
+date:   2018-06-25 8:15:00
 ---
 
 ### Dolor sit amet?

@@ -2,7 +2,7 @@
 title               : Varun's Portfolio
 description         : >-
                       I turn coffee :coffee: into code,
-                      use tabs over spaces
+                      use tabs over spaces (duh)
                       and never broke production.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 #repository          : varunbeheralego/blog-theme     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)

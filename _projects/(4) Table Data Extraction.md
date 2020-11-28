@@ -1,6 +1,6 @@
 ---
 name: Tabular Data Extraction
-tools: [OpenCV, MultiThreading, Python]
+tools: [OpenCV, Multi-Threading, Python]
 image: /data/images/table/wob.png
 description: A novel algorithm for extracting data from images of tabular documents having a specific structure.
 ---
@@ -17,6 +17,6 @@ We propose a novel algorithm for extracting data from images of tabular document
 {% include elements/button.html link="https://www.researchgate.net/publication/343058537_OCR_Using_Computer_Vision_and_Machine_Learning" text="Read the Extended Version" %}
 </p>
 
-Behera, V.N.J., Ranjan, A. and Reza, M., 2020. An Innovative Image-Based Tabular Data Extraction Parallel Algorithm. In Progress in Computing, Analytics and Networking (pp. 95-104). Springer, Singapore.
+_Behera, V.N.J., Ranjan, A. and Reza, M., 2020. An Innovative Image-Based Tabular Data Extraction Parallel Algorithm. In Progress in Computing, Analytics and Networking (pp. 95-104). Springer, Singapore._
 
-Ranjan, A., Behera, V.N.J. and Reza, M., 2020. OCR Using Computer Vision and Machine Learning. In Machine Learning Algorithms for Industrial Applications (pp. 83-105). Springer, Cham.
+_Ranjan, A., Behera, V.N.J. and Reza, M., 2020. OCR Using Computer Vision and Machine Learning. In Machine Learning Algorithms for Industrial Applications (pp. 83-105). Springer, Cham._

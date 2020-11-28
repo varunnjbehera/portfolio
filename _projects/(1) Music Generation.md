@@ -1,13 +1,13 @@
 ---
 name: AI Music Generation
 tools: [LSTM, Attention, MIDI, Python]
-image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
+image: /_data/images/music/web.png
 description: A bi-directional LSTM (Long short-term memory) model with attention mechanism capable of generating similar type of music based on MIDI data.
 ---
 
 # AI Music Generation
 
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
+![preview](/_data/images/music/model.png)
 
 <p class="text-center">
 {% include elements/button.html link="https://research.jamlab.in/music-generator" text="Try it out" %}

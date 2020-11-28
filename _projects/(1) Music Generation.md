@@ -17,4 +17,4 @@ Generating music is an interesting and challenging problem in the field of machi
 {% include elements/button.html link="https://arxiv.org/abs/2011.00773" text="Read the Paper" %}
 </p>
 
-Ranjan, A., Behera, V.N.J. and Reza, M., 2020. Using a Bi-directional LSTM Model with Attention Mechanism trained on MIDI Data for Generating Unique Music. arXiv preprint arXiv:2011.00773.
+_Ranjan, A., Behera, V.N.J. and Reza, M., 2020. Using a Bi-directional LSTM Model with Attention Mechanism trained on MIDI Data for Generating Unique Music. arXiv preprint arXiv:2011.00773._

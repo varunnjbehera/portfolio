@@ -18,4 +18,4 @@ We present a new facial recognition system, capable of identifying a person, pro
 {% include elements/button.html link="https://arxiv.org/abs/2011.00443" text="Read the Paper" %}
 </p>
 
-Ranjan, A., Behera, V.N.J. and Reza, M., 2020. A Parallel Approach for Real-Time Face Recognition from a Large Database. arXiv preprint arXiv:2011.00443.
+_Ranjan, A., Behera, V.N.J. and Reza, M., 2020. A Parallel Approach for Real-Time Face Recognition from a Large Database. arXiv preprint arXiv:2011.00443._

@@ -17,4 +17,4 @@ A system to model the spread of COVID-19 cases after lockdown has been proposed,
 {% include elements/button.html link="https://arxiv.org/abs/2011.00414" text="Read the Paper" %}
 </p>
 
-Behera, V.N.J., Ranjan, A. and Reza, M., 2020. Graph based Clustering Algorithm for Social Community Transmission Prediction of COVID-19. arXiv preprint arXiv:2011.00414.
+_Behera, V.N.J., Ranjan, A. and Reza, M., 2020. Graph based Clustering Algorithm for Social Community Transmission Prediction of COVID-19. arXiv preprint arXiv:2011.00414._

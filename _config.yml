@@ -1,9 +1,9 @@
 ### Site Settings ###
 title               : Varun's Portfolio
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+                      Hi, I'm Varun.
+                      I create dreams at JAM Lab, and share ideas on my Blog.
+                      Feel free to check out my Portfolio.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU

@@ -1,11 +1,11 @@
 ---
-name: Tabular Data Extraction
+name: Frequency Estimation of Gravitational Waves
 tools: [GW, BBH Merger, MATLAB]
 image: /data/images/gwaves/ligo.jpg
 description: This is the initial work on the estimation of the frequency of gravitational waves from a binary black hole merger for low SNR.
 ---
 
-# Tabular Data Extraction
+# Frequency Estimation of Gravitational Waves
 
 ![preview](/data/images/gwaves/ligo.jpeg)
 

@@ -14,5 +14,9 @@ We propose a novel algorithm for extracting data from images of tabular document
 
 <p class="text-center">
 {% include elements/button.html link="https://www.researchgate.net/publication/340214505_An_Innovative_Image-Based_Tabular_Data_Extraction_Parallel_Algorithm" text="Read the Paper" %}
-{% include elements/button.html link="https://www.researchgate.net/publication/340214505_An_Innovative_Image-Based_Tabular_Data_Extraction_Parallel_Algorithm" text="Read the Extended Version" %}
+{% include elements/button.html link="https://www.researchgate.net/publication/343058537_OCR_Using_Computer_Vision_and_Machine_Learning" text="Read the Extended Version" %}
 </p>
+
+Behera, V.N.J., Ranjan, A. and Reza, M., 2020. An Innovative Image-Based Tabular Data Extraction Parallel Algorithm. In Progress in Computing, Analytics and Networking (pp. 95-104). Springer, Singapore.
+
+Ranjan, A., Behera, V.N.J. and Reza, M., 2020. OCR Using Computer Vision and Machine Learning. In Machine Learning Algorithms for Industrial Applications (pp. 83-105). Springer, Cham.

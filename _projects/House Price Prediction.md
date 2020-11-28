@@ -1,6 +1,6 @@
 ---
 name: House Price Prediction
-tools: [Random Forest, Data Analysis, Regression, R]
+tools: [Data Analysis, Advanced Regression, R]
 image: /data/images/house/house1.jpg
 description: A random forest based regression model for predicting house prices.
 ---

@@ -1,13 +1,13 @@
 ---
 name: COVID-19 Spread Predictor
 tools: [Clustering, Graph, GMaps API, Python]
-image: /_data/images/covid/nws2.png
+image: /data/images/covid/nws2.png
 description: A system to model the spread of COVID-19 cases after lockdown has been proposed, to define new preventive measures based on hotspots, using the graph clustering algorithm.
 ---
 
 # COVID-19 Spread Predictor
 
-![preview](/_data/images/covid/map.png)
+![preview](/data/images/covid/map.png)
 
 <p class="text-center">
 {% include elements/button.html link="https://research.jamlab.in/covid" text="Try it out" %}

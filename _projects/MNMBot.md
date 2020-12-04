@@ -8,7 +8,7 @@ description: An RNN based text generator trained  on a corpus of Eminem song lyr
 
 # Eminem Bot
 
-![preview](/data/images/mnmbot/mnm2.jpg)
+![](/data/images/mnmbot/mnm2.jpg)
 
 ## AI raps like Eminem
 This is a simple RNN based text generator called 'MNMBot'. It has been trained on a large corpus of lyrics of Eminem's songs. It is based on Google's Shakespeare Play Generator.

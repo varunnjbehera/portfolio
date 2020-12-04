@@ -8,7 +8,7 @@ description: A novel algorithm for extracting data from images of tabular docume
 
 # Tabular Data Extraction
 
-![preview](/data/images/table/wb.png)
+![](/data/images/table/wb.png)
 
 ## Abstract
 We propose a novel algorithm for extracting data from images of tabular documents having a specific structure. Our proposed method is able to maintain the original table format and structure, and offers better efficiency over existing methodologies due to its high scalability and parallel architecture. The findings of this paper will increase efficiency in the data extraction process from image-based tabular data and help ease the digitization process of tabular records.

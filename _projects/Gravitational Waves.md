@@ -8,7 +8,7 @@ description: This is the initial work on the estimation of the frequency of grav
 
 # Frequency Estimation of Gravitational Waves
 
-![preview](/data/images/gwaves/ligo.jpeg)
+![](/data/images/gwaves/ligo.jpeg)
 
 ## Abstract
 This is a collection of literature reviews and some initial work on the estimation of the frequency of gravitational waves from a binary black hole merger for low SNR. This document provides a starting point, with a broad overview of the prerequisites required for the follow-up work on frequency estimation.

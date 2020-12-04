@@ -8,7 +8,7 @@ description: A Multi-Layer Perceptron based sentiment analysis model for underst
 
 # Placement Sentiment Analysis
 
-![preview](/data/images/nistpd/nist2.jpg)
+![](/data/images/nistpd/nist2.jpg)
 
 ## Fear based sentiment bias?
 This is a simple MLP based sentiment analysis model for placement department of NIST. It has been trained on the feedback of more than 300 students. The data itself is very skewed, as ratings don't match the negative comments. This begs to question whether students fear the placement cell of NIST.

@@ -8,9 +8,9 @@ description: A new facial recognition system, capable of identifying a person, p
 
 # Parallel Face Recognition
 
-![preview1](/data/images/face/model1.png)
+![](/data/images/face/model1.png)
 
-![preview2](/data/images/face/model2.png)
+![](/data/images/face/model2.png)
 
 ## Abstract
 We present a new facial recognition system, capable of identifying a person, provided their likeness has been previously stored in the system, in real time. The system is based on storing and comparing facial embeddings of the subject, and identifying them later within a live video feed. This system is highly accurate, and is able to tag people with their ID in real time. It is able to do so, even when using a database containing thousands of facial embeddings, by using a parallelized searching technique. This makes the system quite fast and allows it to be highly scalable.

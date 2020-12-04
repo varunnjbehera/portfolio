@@ -1,4 +1,5 @@
 ---
+title: House Price Prediction
 name: House Price Prediction
 tools: [Data Analysis, Advanced Regression, R]
 image: /data/images/house/house1.jpg

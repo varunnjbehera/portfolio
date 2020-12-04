@@ -1,4 +1,5 @@
 ---
+title: Parallel Face Recognition
 name: Parallel Face Recognition
 tools: [Caffe, GoogleNet, ResNet, Python]
 image: /data/images/face/crowd.jpg

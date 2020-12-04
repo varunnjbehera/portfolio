@@ -1,4 +1,5 @@
 ---
+title: Frequency Estimation of Gravitational Waves
 name: Frequency Estimation of Gravitational Waves
 tools: [GW, BBH Merger, MATLAB]
 image: /data/images/gwaves/ligo.jpg

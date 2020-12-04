@@ -1,4 +1,5 @@
 ---
+title: Eminem Bot
 name: Eminem Bot
 tools: [RNN, Text Generation, Python]
 image: /data/images/mnmbot/mnm1.jpg

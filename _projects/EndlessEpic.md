@@ -1,4 +1,5 @@
 ---
+title: EndlessEpic
 name: EndlessEpic
 tools: [Unreal Engine 4.19]
 image: /data/images/endless/endless.jpg

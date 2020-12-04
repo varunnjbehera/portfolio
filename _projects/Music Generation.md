@@ -1,4 +1,5 @@
 ---
+title: AI Music Generator
 name: AI Music Generator
 tools: [LSTM, Attention, MIDI, Python]
 image: /data/images/music/web.png

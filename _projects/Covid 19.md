@@ -1,4 +1,5 @@
 ---
+title: COVID-19 Spread Predictor
 name: COVID-19 Spread Predictor
 tools: [Clustering, Graph, GMaps API, Python]
 image: /data/images/covid/nws2.png

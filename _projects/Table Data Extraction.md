@@ -1,4 +1,5 @@
 ---
+title: Tabular Data Extraction
 name: Tabular Data Extraction
 tools: [OpenCV, Multi-Threading, Python]
 image: /data/images/table/wob.png

@@ -1,4 +1,5 @@
 ---
+title: Placement Sentiment Analysis
 name: Placement Sentiment Analysis
 tools: [DNN, Text Classification, Python]
 image: /data/images/nistpd/nist1.jpg

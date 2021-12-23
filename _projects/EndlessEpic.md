@@ -12,7 +12,3 @@ description: A simple endless running game.
 
 ## Why aren't there more endless runners on PC?
 This is a simple endless runner built using Unreal Engine 4.19. This game is inspired from official Unreal Engine tutorials.
-
-<p class="text-center">
-{% include elements/button.html link="https://jamlab.itch.io/endlessepic" text="Play for Free" %}
-</p>

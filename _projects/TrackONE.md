@@ -19,7 +19,3 @@ description: A simple time attack racing game.
 
 ## Singleplayer racers are FUN TOO !!!
 This is a simple time attack racer built using Unreal Engine 4.18. This game is inspired from official Unreal Engine tutorials.
-
-<p class="text-center">
-{% include elements/button.html link="https://jamlab.itch.io/trackone" text="Play for Free" %}
-</p>

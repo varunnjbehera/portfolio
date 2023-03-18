@@ -18,4 +18,4 @@ This paper proposes a system to model the spread of COVID-19. This system will w
 {% include elements/button.html link="https://arxiv.org/abs/2011.00414" text="Read the Paper" %}
 </p>
 
-_Behera, V.N.J., Ranjan, A. and Reza, M., 2020. Graph based Clustering Algorithm for Social Community Transmission Prediction of COVID-19. arXiv preprint arXiv:2011.00414._
+_Behera, V.N.J., Ranjan, A., Reza, M. (2022). Graph-Based Clustering Algorithm for Social Community Transmission Control of COVID-19 During Lockdown. In: Nayak, J., Naik, B., Abraham, A. (eds) Understanding COVID-19: The Role of Computational Intelligence. Studies in Computational Intelligence, vol 963. Springer, Cham._

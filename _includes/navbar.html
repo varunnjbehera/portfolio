@@ -1,6 +1,8 @@
 <nav class="navbar" aria-label="Main navigation">
   <div class="navbar__inner">
-    <a href="{{ '/' | relative_url }}" class="navbar__brand">{{ site.author.name }}</a>
+    <a href="{{ '/' | relative_url }}" class="navbar__brand" aria-label="{{ site.author.name }}">
+      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="{{ site.author.name }}" class="navbar__logo">
+    </a>
     <ul class="navbar__nav">
       {% assign pages_list = site.pages | where_exp: "p", "p.title != nil" | where_exp: "p", "p.weight != nil" | sort: "weight" %}
       {% for nav_page in pages_list %}

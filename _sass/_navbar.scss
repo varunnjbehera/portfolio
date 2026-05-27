@@ -21,13 +21,20 @@
 }
 
 .navbar__brand {
-  font-weight: 700;
-  font-size: var(--text-lg);
-  letter-spacing: -0.02em;
-  color: var(--color-text);
-  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
 
-  &:hover { color: var(--color-primary); }
+  &:hover .navbar__logo { opacity: 0.8; }
+}
+
+.navbar__logo {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  transition: opacity var(--transition);
 }
 
 .navbar__nav {

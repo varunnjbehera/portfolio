@@ -24,15 +24,15 @@
   display: inline-flex;
   align-items: center;
   flex-shrink: 0;
+  text-decoration: none;
 
-  &:hover .navbar__logo { opacity: 0.8; }
+  &:hover .navbar__logo { opacity: 0.75; }
 }
 
 .navbar__logo {
-  height: 34px;
-  width: 34px;
-  border-radius: 50%;
-  object-fit: cover;
+  height: 32px;
+  width: auto;
+  object-fit: contain;
   display: block;
   transition: opacity var(--transition);
 }

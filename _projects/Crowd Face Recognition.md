@@ -1,6 +1,8 @@
 ---
 title: Parallel Face Recognition
 name: Parallel Face Recognition
+year: 2020
+author_role: co-author
 tools: [Caffe, GoogleNet, ResNet, Python]
 image: /data/images/face/crowd.jpg
 description: A new facial recognition system, capable of identifying a person, provided their likeness has been previously stored in the system, in real time.

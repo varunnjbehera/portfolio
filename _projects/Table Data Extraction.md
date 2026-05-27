@@ -1,6 +1,8 @@
 ---
 title: Tabular Data Extraction
 name: Tabular Data Extraction
+year: 2020
+author_role: first author
 tools: [OpenCV, Multi-Threading, Python]
 image: /data/images/table/wob.png
 description: A novel algorithm for extracting data from images of tabular documents having a specific structure.

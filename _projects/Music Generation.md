@@ -1,6 +1,8 @@
 ---
 title: AI Music Generator
 name: AI Music Generator
+year: 2020
+author_role: co-author
 tools: [LSTM, Attention, MIDI, Python]
 image: /data/images/music/web.png
 description: A bi-directional LSTM (Long short-term memory) model with attention mechanism capable of generating similar type of music based on MIDI data.

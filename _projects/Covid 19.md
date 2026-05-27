@@ -1,6 +1,8 @@
 ---
 title: COVID-19 Spread Predictor
 name: COVID-19 Spread Predictor
+year: 2020
+author_role: first author
 tools: [Clustering, Graph, GMaps API, Python]
 image: /data/images/covid/nws2.png
 description: A system to model the spread of COVID-19 cases after lockdown has been proposed, to define new preventive measures based on hotspots, using the graph clustering algorithm.

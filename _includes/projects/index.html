@@ -9,15 +9,38 @@
 {% assign all_tools = all_tools | sort %}
 
 <div class="site-hero">
+  {% if site.author.status %}
+  <div class="site-hero__status">
+    <span class="dot" aria-hidden="true"></span>
+    <span>{{ site.author.status }}</span>
+  </div>
+  {% endif %}
   <h1 class="site-hero__name">{{ site.author.name }}</h1>
   <p class="site-hero__role">{{ site.author.role }}</p>
   <p class="site-hero__desc">{{ site.description }}</p>
+  <div class="site-hero__meta">
+    <div class="site-hero__meta-item">
+      <span class="label">Current</span>
+      <span class="val">{{ site.author.company }} &nbsp;·&nbsp; AI/ML consulting</span>
+    </div>
+    <div class="site-hero__meta-item">
+      <span class="label">Research</span>
+      <span class="val">
+        <a href="{{ site.author.arxiv }}" target="_blank" rel="noopener">arXiv ↗</a>
+        &nbsp;·&nbsp;
+        <a href="{{ site.author.scholar }}" target="_blank" rel="noopener">Scholar ↗</a>
+      </span>
+    </div>
+  </div>
 </div>
 
 <section class="projects-page">
   <header class="projects-page__header">
-    <h2 class="projects-page__title">Projects</h2>
-    <p class="projects-page__subtitle">{{ site.projects.size }} projects &mdash; click a tag to filter</p>
+    <div>
+      <h2 class="projects-page__title">Projects</h2>
+      <p class="projects-page__subtitle">Click a tag to filter</p>
+    </div>
+    <span class="projects-page__count" id="visibleCount" aria-live="polite"></span>
   </header>
 
   <div class="tag-filter" role="group" aria-label="Filter projects by technology">
@@ -50,6 +73,7 @@
           </div>
         {% endif %}
         <div class="project-card__body">
+          {% if project.year %}<span class="project-card__year">{{ project.year }}{% if project.author_role %} · {{ project.author_role }}{% endif %}</span>{% endif %}
           <h3 class="project-card__title">{{ project.title }}</h3>
           {% if project.description %}
             <p class="project-card__desc">{{ project.description }}</p>

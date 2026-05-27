@@ -6,6 +6,11 @@
 
 .projects-page__header {
   margin-bottom: var(--space-8);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: var(--space-4);
 }
 
 .projects-page__title {
@@ -16,6 +21,12 @@
 
 .projects-page__subtitle {
   font-size: var(--text-base);
+  color: var(--color-muted);
+}
+
+.projects-page__count {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
   color: var(--color-muted);
 }
 
@@ -71,17 +82,18 @@
   display: flex;
   flex-direction: column;
   background: var(--color-surface);
-  border: none;
+  border: 1px solid transparent;
   border-radius: var(--radius-lg);
   overflow: hidden;
   box-shadow: var(--shadow-sm);
-  transition: box-shadow 0.25s ease, transform 0.25s ease, opacity 0.15s ease;
+  transition: box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s, opacity 0.15s ease;
   text-decoration: none;
   color: inherit;
 
   &:hover {
     box-shadow: var(--shadow-md);
     transform: translateY(-3px);
+    border-color: var(--color-border);
   }
 
   &:focus-visible {
@@ -107,7 +119,7 @@
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 0.4s ease;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .project-card:hover .project-card__image {
@@ -120,6 +132,14 @@
   flex: 1;
   padding: var(--space-5);
   gap: var(--space-3);
+}
+
+.project-card__year {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-muted);
 }
 
 .project-card__title {

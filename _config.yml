@@ -1,12 +1,10 @@
 ### Site Settings ###
 title               : Varun's Portfolio
 description         : >-
-                      Hi, I'm Varun.
-                      I create dreams at JAM Lab, and share ideas on my Blog.
-                      Feel free to check out my Portfolio.
-baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : YoussefRaafatNasry/portfolYOU
+                      ML Engineer and R&D practitioner. Senior Consultant (AI/ML) at Qyrus.
+                      Specialises in LLM agents, RAG pipelines, agentic AI, and knowledge graphs.
+baseurl             : ""
+repository          : varunnjbehera/portfolio
 
 
 ### Plugins ###
@@ -15,42 +13,22 @@ plugins:
 
 
 ### Navbar Settings ###
-nav_exclude:                                            # The following paths are excluded from navbar
+nav_exclude:
   - pages/404.html
-  - documentation/elements.html
-  - documentation/github.md
   - pages/projects.html
-  - documentation/docs.md
-  - documentation/partials/**                           # For Documentation Only
 
 
 ### Author Info ###
 author:
   name              : Varun Behera
-  image             : https://scholar.googleusercontent.com/citations?view_op=view_photo&user=iVUAoFYAAAAJ&citpid=3
-# behance           : your_username
-# dribbble          : your_username
+  image             : https://github.com/varunnjbehera.png
   email             : mail@varunbehera.com
-# facebook          : your_username
   github            : varunbeheralego
-# gitlab            : your_username
   instagram         : varun.nj.behera
   kaggle            : varunbeheralego
   linkedin          : varunbehera
-# medium            : your_username
-# soundcloud        : your_username
-# spotify           : your_username
-# stackoverflow     : your_user_id
-# tumblr            : your_username.tumblr.com
-# twitch            : your_username
   twitter           : VarunBehera
-# vimeo             : your_username
   youtube           : VarunBehera
-# keybase           : your_username
-
-
-### Posts ###
-#permalink: /blog/:title
 
 
 ### Collections ###
@@ -58,19 +36,17 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-  elements:                                             # For Documentation Only
-    output: true                                        # For Documentation Only
 
 
 ### Disqus ###
-disqus: varunbehera                          # Your website Shortname on disqus
+disqus: varunbehera
 
 
 ### Analytics ###
 analytics:
-  enabled: false                                        # Set true to enable analytics
+  enabled: false
   google:
-    tracking_id: your-google-tracking-id
+    tracking_id: ""
 
 
 ### Defaults for collections ###
@@ -80,16 +56,12 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-  - scope:                                              # For Documentation Only
-      path: ""                                          # For Documentation Only
-      type: "elements"                                  # For Documentation Only
-    values:                                             # For Documentation Only
-      layout: "element"                                 # For Documentation Only
   - scope:
       path: ""
       type: "posts"
     values:
-      comments: false                                   # Set to true to enable disqus comments
+      comments: false
+
 
 ### Exclude from processing ###
 exclude:
@@ -97,3 +69,4 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
+  - Gemfile.lock

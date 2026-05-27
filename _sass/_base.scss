@@ -88,19 +88,20 @@ hr {
 }
 
 .skip-link {
-  position: absolute;
-  top: -100%;
+  position: fixed;
+  top: 0;
   left: var(--space-4);
+  transform: translateY(-200%);
   background: var(--color-primary);
   color: #fff;
   padding: var(--space-2) var(--space-4);
   border-radius: 0 0 var(--radius) var(--radius);
   font-size: var(--text-sm);
   font-weight: 500;
-  z-index: 999;
-  transition: top 0.15s;
+  z-index: 9999;
+  transition: transform 0.15s ease;
 
-  &:focus { top: 0; }
+  &:focus { transform: translateY(0); }
 }
 
 @keyframes fadeUp {

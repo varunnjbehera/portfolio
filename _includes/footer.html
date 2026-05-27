@@ -26,6 +26,20 @@
         </a>
       </li>
       {% endif %}
+      {% if site.author.arxiv %}
+      <li>
+        <a href="{{ site.author.arxiv }}" class="footer__social-link" target="_blank" rel="noopener" aria-label="arXiv" title="arXiv">
+          <i class="fa-solid fa-scroll fa-fw" aria-hidden="true"></i>
+        </a>
+      </li>
+      {% endif %}
+      {% if site.author.scholar %}
+      <li>
+        <a href="{{ site.author.scholar }}" class="footer__social-link" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar">
+          <i class="fa-solid fa-graduation-cap fa-fw" aria-hidden="true"></i>
+        </a>
+      </li>
+      {% endif %}
       {% if site.author.email %}
       <li>
         <a href="mailto:{{ site.author.email }}" class="footer__social-link" aria-label="Email" title="Email">

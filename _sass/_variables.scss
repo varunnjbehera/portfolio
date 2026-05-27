@@ -1,0 +1,48 @@
+:root {
+  --color-primary:    #204f8d;
+  --color-primary-hover: #1a3f71;
+  --color-bg:         #ffffff;
+  --color-surface:    #f7f8fa;
+  --color-text:       #111111;
+  --color-muted:      #666666;
+  --color-border:     #e2e4e9;
+  --color-tag-bg:     #edf1f7;
+  --color-tag-text:   #204f8d;
+  --color-focus:      rgba(32, 79, 141, 0.35);
+
+  --font-sans:        -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono:        "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+
+  --text-xs:   0.75rem;
+  --text-sm:   0.875rem;
+  --text-base: 1rem;
+  --text-lg:   1.125rem;
+  --text-xl:   1.25rem;
+  --text-2xl:  1.5rem;
+  --text-3xl:  1.875rem;
+
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-5:  1.25rem;
+  --space-6:  1.5rem;
+  --space-8:  2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  --radius-sm:  4px;
+  --radius:     8px;
+  --radius-lg:  12px;
+
+  --shadow-sm:  0 1px 3px rgba(0,0,0,0.08);
+  --shadow:     0 2px 8px rgba(0,0,0,0.10);
+  --shadow-md:  0 4px 16px rgba(0,0,0,0.12);
+
+  --transition: 0.2s ease;
+
+  --nav-height: 60px;
+  --content-max: 1100px;
+  --content-pad: clamp(1rem, 5vw, 2.5rem);
+}

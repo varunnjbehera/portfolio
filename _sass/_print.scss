@@ -1,0 +1,32 @@
+@media print {
+  .navbar,
+  .footer,
+  .tag-filter,
+  .back-link,
+  .btn { display: none !important; }
+
+  body {
+    font-size: 11pt;
+    color: #000;
+    background: #fff;
+  }
+
+  a { color: #000; text-decoration: underline; }
+
+  .project-page,
+  .projects-page {
+    max-width: none;
+    padding: 0;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .project-card {
+    break-inside: avoid;
+    box-shadow: none;
+    border: 1px solid #ccc;
+  }
+}

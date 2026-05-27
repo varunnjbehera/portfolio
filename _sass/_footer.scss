@@ -30,16 +30,16 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 34px;
-  height: 34px;
-  border-radius: var(--radius-sm);
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius);
   color: var(--color-muted);
   font-size: var(--text-base);
   transition: color var(--transition), background-color var(--transition);
 
   &:hover {
     color: var(--color-primary);
-    background-color: var(--color-surface);
+    background-color: var(--color-tag-bg);
   }
 
   &:focus-visible {

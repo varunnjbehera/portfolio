@@ -1,1 +1,1 @@
-<a href="{{ include.link }}" target="_blank" rel="noopener" class="btn">{{ include.text }}</a>
+<a href="{{ include.link }}" target="_blank" rel="noopener" class="btn{% if include.style == 'outline' %} btn--outline{% endif %}">{{ include.text }}</a>

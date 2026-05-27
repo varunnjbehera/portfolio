@@ -1,0 +1,30 @@
+.site-hero {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: var(--space-16) var(--content-pad) var(--space-12);
+  animation: fadeUp 0.6s ease-out both;
+}
+
+.site-hero__name {
+  font-family: 'Existence', var(--font-sans);
+  font-size: clamp(2.25rem, 5vw, 3.75rem);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+  color: var(--color-text);
+  margin-bottom: var(--space-3);
+}
+
+.site-hero__role {
+  font-size: var(--text-xl);
+  color: var(--color-primary);
+  font-weight: 500;
+  margin-bottom: var(--space-4);
+}
+
+.site-hero__desc {
+  font-size: var(--text-base);
+  color: var(--color-muted);
+  max-width: 560px;
+  line-height: 1.65;
+}

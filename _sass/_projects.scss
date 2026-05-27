@@ -1,7 +1,7 @@
 .projects-page {
   max-width: var(--content-max);
   margin: 0 auto;
-  padding: var(--space-10) var(--content-pad) var(--space-16);
+  padding: var(--space-2) var(--content-pad) var(--space-16);
 }
 
 .projects-page__header {
@@ -33,7 +33,7 @@
   padding: var(--space-1) var(--space-3);
   border-radius: 999px;
   border: 1px solid var(--color-border);
-  background: var(--color-bg);
+  background: transparent;
   font-size: var(--text-xs);
   font-weight: 500;
   color: var(--color-muted);
@@ -42,9 +42,9 @@
   user-select: none;
 
   &:hover {
-    background-color: var(--color-surface);
-    color: var(--color-text);
     border-color: var(--color-primary);
+    color: var(--color-primary);
+    background: transparent;
   }
 
   &.active {
@@ -70,26 +70,48 @@
 .project-card {
   display: flex;
   flex-direction: column;
-  background: var(--color-bg);
-  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  border: none;
   border-radius: var(--radius-lg);
   overflow: hidden;
-  transition: box-shadow var(--transition), transform var(--transition), border-color var(--transition);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.25s ease, transform 0.25s ease, opacity 0.15s ease;
   text-decoration: none;
   color: inherit;
 
   &:hover {
     box-shadow: var(--shadow-md);
-    transform: translateY(-2px);
-    border-color: rgba(32, 79, 141, 0.3);
+    transform: translateY(-3px);
   }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--color-focus);
+  }
+}
+
+.project-card.card-hidden {
+  opacity: 0;
+  transform: scale(0.97);
+}
+
+.project-card__image-wrapper {
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  background: var(--color-border);
+  flex-shrink: 0;
 }
 
 .project-card__image {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  height: 100%;
   object-fit: cover;
-  background-color: var(--color-surface);
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.project-card:hover .project-card__image {
+  transform: scale(1.04);
 }
 
 .project-card__body {
@@ -130,10 +152,12 @@
   display: inline-block;
   padding: 2px var(--space-2);
   border-radius: var(--radius-sm);
-  background: var(--color-tag-bg);
+  background: transparent;
+  border: 1px solid var(--color-tag-text);
   color: var(--color-tag-text);
-  font-size: var(--text-xs);
+  font-size: 0.7rem;
   font-weight: 500;
+  opacity: 0.8;
 }
 
 /* Hidden cards when filtered out */

@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Existence';
+  src: url('/assets/fonts/Existence-Light.otf') format('opentype');
+  font-display: swap;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -79,6 +85,33 @@ hr {
   border: none;
   border-top: 1px solid var(--color-border);
   margin: var(--space-8) 0;
+}
+
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: var(--space-4);
+  background: var(--color-primary);
+  color: #fff;
+  padding: var(--space-2) var(--space-4);
+  border-radius: 0 0 var(--radius) var(--radius);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  z-index: 999;
+  transition: top 0.15s;
+
+  &:focus { top: 0; }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

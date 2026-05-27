@@ -8,9 +8,15 @@
 {% endfor %}
 {% assign all_tools = all_tools | sort %}
 
+<div class="site-hero">
+  <h1 class="site-hero__name">{{ site.author.name }}</h1>
+  <p class="site-hero__role">{{ site.author.role }}</p>
+  <p class="site-hero__desc">{{ site.description }}</p>
+</div>
+
 <section class="projects-page">
   <header class="projects-page__header">
-    <h1 class="projects-page__title">Projects</h1>
+    <h2 class="projects-page__title">Projects</h2>
     <p class="projects-page__subtitle">{{ site.projects.size }} projects &mdash; click a tag to filter</p>
   </header>
 
@@ -35,14 +41,16 @@
          data-tools="{{ tools_str }}"
          aria-label="{{ project.title }}">
         {% if project.image %}
-          <img src="{{ project.image | relative_url }}"
-               alt="{{ project.title }}"
-               class="project-card__image"
-               loading="lazy"
-               width="400" height="225">
+          <div class="project-card__image-wrapper">
+            <img src="{{ project.image | relative_url }}"
+                 alt="{{ project.title }}"
+                 class="project-card__image"
+                 loading="lazy"
+                 width="400" height="225">
+          </div>
         {% endif %}
         <div class="project-card__body">
-          <h2 class="project-card__title">{{ project.title }}</h2>
+          <h3 class="project-card__title">{{ project.title }}</h3>
           {% if project.description %}
             <p class="project-card__desc">{{ project.description }}</p>
           {% endif %}

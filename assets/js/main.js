@@ -7,17 +7,30 @@
 
   if (!chips.length || !cards.length) return;
 
+  function showCard(card) {
+    card.hidden = false;
+    requestAnimationFrame(function () {
+      card.classList.remove('card-hidden');
+    });
+  }
+
+  function hideCard(card) {
+    card.classList.add('card-hidden');
+    setTimeout(function () {
+      if (card.classList.contains('card-hidden')) card.hidden = true;
+    }, 160);
+  }
+
   function filterCards(activeTag) {
     var visible = 0;
     cards.forEach(function (card) {
-      if (activeTag === 'all') {
-        card.hidden = false;
+      var show = activeTag === 'all' ||
+        (card.dataset.tools || '').split(' ').indexOf(activeTag) !== -1;
+      if (show) {
+        showCard(card);
         visible++;
       } else {
-        var tools = (card.dataset.tools || '').split(' ');
-        var match = tools.indexOf(activeTag) !== -1;
-        card.hidden = !match;
-        if (match) visible++;
+        hideCard(card);
       }
     });
     if (empty) {

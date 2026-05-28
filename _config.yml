@@ -4,6 +4,7 @@ description         : >-
                       ML Engineer and R&D practitioner. Senior Consultant (AI/ML) at Qyrus.
                       Specialises in LLM agents, RAG pipelines, agentic AI, and knowledge graphs.
 baseurl             : ""
+url                 : "https://portfolio.varunbehera.com"
 repository          : varunnjbehera/portfolio
 
 
@@ -26,7 +27,7 @@ author:
   status            : open to consulting
   image             : https://github.com/varunnjbehera.png
   email             : mail@varunbehera.com
-  github            : varunbeheralego
+  github            : varunnjbehera
   kaggle            : varunbeheralego
   linkedin          : varunbehera
   arxiv             : https://arxiv.org/a/behera_v_1.html

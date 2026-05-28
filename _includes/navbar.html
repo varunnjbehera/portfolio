@@ -10,9 +10,8 @@
         {% unless site.nav_exclude contains nav_page.path %}
           <li>
             {% if nav_page.external_url %}
-              <a href="{{ nav_page.external_url }}" class="navbar__link" target="_blank" rel="noopener">
+              <a href="{{ nav_page.external_url }}" class="navbar__link">
                 {{ nav_page.title }}
-                <i class="fa-solid fa-arrow-up-right-from-square fa-fw" aria-hidden="true"></i>
               </a>
             {% else %}
               <a href="{{ nav_page.url | relative_url }}" class="navbar__link{% if page.url == nav_page.url %} active{% endif %}">

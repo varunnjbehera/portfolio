@@ -64,8 +64,8 @@
   transition: color var(--transition), background-color var(--transition), box-shadow var(--transition);
 
   &:hover {
-    color: var(--color-text);
-    background-color: var(--color-surface);
+    color: var(--color-primary);
+    background-color: color-mix(in srgb, var(--color-primary) 6%, transparent);
   }
 
   &.active {

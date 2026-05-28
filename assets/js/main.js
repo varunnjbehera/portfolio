@@ -7,40 +7,33 @@
   var countEl = document.getElementById('visibleCount');
 
   if (chips.length && cards.length) {
-    function showCard(card) {
-      card.hidden = false;
-      requestAnimationFrame(function () {
-        requestAnimationFrame(function () {
-          card.classList.remove('card-hidden');
-        });
-      });
-    }
-
-    function hideCard(card) {
-      card.classList.add('card-hidden');
-      setTimeout(function () {
-        if (card.classList.contains('card-hidden')) card.hidden = true;
-      }, 160);
-    }
-
     function filterCards(activeTag) {
-      var visible = 0;
+      var toShow = [];
+      var toHide = [];
+
       cards.forEach(function (card) {
         var show = activeTag === 'all' ||
           (card.dataset.tools || '').split(' ').indexOf(activeTag) !== -1;
-        if (show) {
-          showCard(card);
-          visible++;
-        } else {
-          hideCard(card);
-        }
+        (show ? toShow : toHide).push(card);
       });
-      if (empty) {
-        empty.classList.toggle('visible', visible === 0);
-      }
-      if (countEl) {
-        countEl.textContent = visible + ' / ' + cards.length;
-      }
+
+      // Phase 1: fade out departing cards
+      toHide.forEach(function (card) { card.classList.add('card-hidden'); });
+
+      // Phase 2: after fade completes, remove from layout then fade in arriving cards
+      setTimeout(function () {
+        toHide.forEach(function (card) { card.hidden = true; });
+        toShow.forEach(function (card) {
+          card.hidden = false;
+          requestAnimationFrame(function () {
+            requestAnimationFrame(function () {
+              card.classList.remove('card-hidden');
+            });
+          });
+        });
+        if (empty) empty.classList.toggle('visible', toShow.length === 0);
+        if (countEl) countEl.textContent = toShow.length + ' / ' + cards.length;
+      }, toHide.length ? 160 : 0);
     }
 
     chips.forEach(function (chip) {

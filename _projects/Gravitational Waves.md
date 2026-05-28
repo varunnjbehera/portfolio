@@ -3,7 +3,7 @@ title: Frequency Estimation of Gravitational Waves
 name: Frequency Estimation of Gravitational Waves
 year: 2020
 author_role: first author
-tools: [GW, BBH Merger, MATLAB]
+tools: [MATLAB, Signal Processing]
 image: /data/images/gwaves/ligo.jpg
 description: This is the initial work on the estimation of the frequency of gravitational waves from a binary black hole merger for low SNR.
 ---

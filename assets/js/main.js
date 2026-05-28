@@ -10,7 +10,9 @@
     function showCard(card) {
       card.hidden = false;
       requestAnimationFrame(function () {
-        card.classList.remove('card-hidden');
+        requestAnimationFrame(function () {
+          card.classList.remove('card-hidden');
+        });
       });
     }
 

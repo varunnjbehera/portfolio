@@ -2,7 +2,7 @@
 title: Placement Sentiment Analysis
 name: Placement Sentiment Analysis
 year: 2020
-tools: [DNN, Text Classification, Python]
+tools: [Python, NLP, Deep Learning]
 image: /data/images/nistpd/nist1.jpg
 description: A Multi-Layer Perceptron based sentiment analysis model for understanding student perception of the NIST placement cell.
 ---

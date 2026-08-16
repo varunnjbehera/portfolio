@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Varun's Portfolio
 description         : >-
-                      ML Engineer and R&D practitioner. Senior Consultant (AI/ML) at Qyrus.
+                      ML Engineer and R&D practitioner. Lead Consultant (AI/ML) at Qyrus.
                       Specialises in LLM agents, RAG pipelines, agentic AI, and knowledge graphs.
 baseurl             : ""
 url                 : "https://portfolio.varunbehera.com"
@@ -22,7 +22,7 @@ nav_exclude:
 ### Author Info ###
 author:
   name              : Varun Behera
-  role              : Senior Consultant (AI/ML) · Qyrus
+  role              : Lead Consultant (AI/ML) · Qyrus
   company           : Qyrus
   status            : open to consulting
   image             : https://github.com/varunnjbehera.png

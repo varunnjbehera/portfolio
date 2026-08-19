@@ -16,9 +16,25 @@ description: A beautiful, ready-to-use book review blog. Fork it, fill in your n
 
 **A beautiful, ready-to-use book review blog. Fork it, fill in your name, and you're live.**
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/varunnjbehera/the-literary-ledger)
-&nbsp;&nbsp;
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvarunnjbehera%2Fthe-literary-ledger&env=HUGO_TITLE,HUGO_PARAMS_AUTHOR,HUGO_PARAMS_DESCRIPTION&envDescription=Personalize%20your%20book%20review%20blog&envDefaults=HUGO_TITLE%3DMy%20Book%20Reviews%2CHUGO_PARAMS_AUTHOR%3DYour%20Name%2CHUGO_PARAMS_DESCRIPTION%3DMy%20personal%20corner%20for%20honest%20book%20reviews.)
+<div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
+
+  <a href="https://app.netlify.com/start/deploy?repository=https://github.com/varunnjbehera/the-literary-ledger">
+    <img
+      src="https://www.netlify.com/img/deploy/button.svg"
+      alt="Deploy to Netlify"
+      style="width:220px !important; height:auto !important;"
+    >
+  </a>
+
+  <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvarunnjbehera%2Fthe-literary-ledger&env=HUGO_TITLE,HUGO_PARAMS_AUTHOR,HUGO_PARAMS_DESCRIPTION&envDescription=Personalize%20your%20book%20review%20blog&envDefaults=HUGO_TITLE%3DMy%20Book%20Reviews%2CHUGO_PARAMS_AUTHOR%3DYour%20Name%2CHUGO_PARAMS_DESCRIPTION%3DMy%20personal%20corner%20for%20honest%20book%20reviews.">
+    <img
+      src="https://vercel.com/button"
+      alt="Deploy with Vercel"
+      style="width:220px !important; height:auto !important;"
+    >
+  </a>
+
+</div>
 
 ---
 

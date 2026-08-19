@@ -1,7 +1,7 @@
 ---
 title: Eminem Bot
 name: Eminem Bot
-year: 2020
+year: 2019
 tools: [Python, RNN, NLP]
 image: /data/images/mnmbot/mnm1.jpg
 description: An RNN based text generator trained  on a corpus of Eminem song lyrics.

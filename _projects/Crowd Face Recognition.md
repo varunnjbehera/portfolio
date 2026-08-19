@@ -1,7 +1,7 @@
 ---
 title: Parallel Face Recognition
 name: Parallel Face Recognition
-year: 2020
+year: 2019
 author_role: co-author
 tools: [Python, Deep Learning, Computer Vision]
 image: /data/images/face/crowd.jpg

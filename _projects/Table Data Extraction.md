@@ -1,7 +1,7 @@
 ---
 title: Tabular Data Extraction
 name: Tabular Data Extraction
-year: 2020
+year: 2019
 author_role: first author
 tools: [Python, Computer Vision, OpenCV]
 image: /data/images/table/wob.png

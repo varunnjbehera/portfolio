@@ -1,7 +1,7 @@
 ---
 title: House Price Prediction
 name: House Price Prediction
-year: 2020
+year: 2019
 tools: [R, Data Analysis, Regression]
 image: /data/images/house/house1.jpg
 description: A random forest based regression model for predicting house prices.

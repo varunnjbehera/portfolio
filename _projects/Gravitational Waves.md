@@ -1,7 +1,7 @@
 ---
 title: Frequency Estimation of Gravitational Waves
 name: Frequency Estimation of Gravitational Waves
-year: 2020
+year: 2019
 author_role: first author
 tools: [MATLAB, Signal Processing]
 image: /data/images/gwaves/ligo.jpg

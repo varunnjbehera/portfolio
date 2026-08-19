@@ -4,7 +4,7 @@ name: Landing Pages Theme Pack
 year: 2026
 tools: [Pi.dev, Vibe Coded]
 image: /data/images/NA.png
-description: A curated collection of **25 high-end, minimalist landing page templates** designed specifically for high-ticket consultants, AI/ML architects, and creative executives. 
+description: A curated collection of 25 high-end, minimalist landing page templates designed specifically for high-ticket consultants, AI/ML architects, and creative executives. 
 ---
 
 # Landing Pages Theme Pack

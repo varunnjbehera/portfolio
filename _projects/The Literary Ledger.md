@@ -16,13 +16,13 @@ description: A beautiful, ready-to-use book review blog. Fork it, fill in your n
 
 **A beautiful, ready-to-use book review blog. Fork it, fill in your name, and you're live.**
 
-<div style="display:flex; align-items:center; gap:16px; flex-wrap:wrap;">
+<div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
 
   <a href="https://app.netlify.com/start/deploy?repository=https://github.com/varunnjbehera/the-literary-ledger">
     <img
       src="https://www.netlify.com/img/deploy/button.svg"
       alt="Deploy to Netlify"
-      style="height:60px !important; width:auto !important;"
+      style="height:36px !important; width:auto !important;"
     >
   </a>
 
@@ -30,7 +30,7 @@ description: A beautiful, ready-to-use book review blog. Fork it, fill in your n
     <img
       src="https://vercel.com/button"
       alt="Deploy with Vercel"
-      style="height:60px !important; width:auto !important;"
+      style="height:36px !important; width:auto !important;"
     >
   </a>
 

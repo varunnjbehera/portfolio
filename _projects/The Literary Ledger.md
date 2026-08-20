@@ -3,14 +3,14 @@ title: The Literary Ledger
 name: The Literary Ledger
 year: 2026
 tools: [Pi.dev, Vibe Coded]
-image: /data/images/NA.png
+image: /data/images/literary-ledger/home.png
 description: A beautiful, ready-to-use book review blog. Fork it, fill in your name, and you're live.
 
 ---
 
 # The Literary Ledger
 
-![](/data/images/NA.png)
+![](/data/images/literary-ledger/archive.png)
 
 ## Hugo Book Review Template
 

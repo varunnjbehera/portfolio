@@ -51,7 +51,7 @@
   </div>
 
   <div class="projects-grid" id="projects-grid">
-    {% assign sorted_projects = site.projects | sort: "title" %}
+    {% assign sorted_projects = site.projects | sort: "year" | reverse %}
     {% for project in sorted_projects %}
       {% assign tool_slugs = "" | split: "" %}
       {% for tool in project.tools %}

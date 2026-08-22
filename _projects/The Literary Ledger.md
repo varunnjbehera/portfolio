@@ -49,6 +49,7 @@ description: A beautiful, ready-to-use book review blog. Fork it, fill in your n
 - **No terminal required** — add reviews directly in your browser via GitHub's web UI
 
 <p class="text-center">
+{% include elements/button.html link="https://the-literary-ledger.vercel.app/" text="Live Demo" %}
 {% include elements/button.html link="https://github.com/varunnjbehera/the-literary-ledger" text="View Source Code" %}
 </p>
 

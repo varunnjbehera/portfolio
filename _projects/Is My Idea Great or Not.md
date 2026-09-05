@@ -2,7 +2,7 @@
 title: Is My Idea Great or Not?
 name: Is My Idea Great or Not?
 year: 2026
-tools: [Next.js, Gemini API, Vibe Coded]
+tools: [OpenCode, Gemini API, Vibe Coded]
 image: /data/images/is-my-idea/home.png
 description: A brutally honest AI judge for literally any idea — from SaaS pitches to pasta experiments.
 ---

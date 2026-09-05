@@ -2,7 +2,7 @@
 title: Give Me a Vibe
 name: Give Me a Vibe
 year: 2026
-tools: [Next.js, Gemini API, Vibe Coded]
+tools: [OpenCode, Gemini API, Vibe Coded]
 image: /data/images/give-me-a-vibe/home.png
 description: A tiny, deliberately overengineered button for people who don't know what to vibe-code.
 ---
